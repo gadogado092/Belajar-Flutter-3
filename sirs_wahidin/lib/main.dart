@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:sirs_wahidin/views/home_page.dart';
+import 'package:sirs_wahidin/views/splash_page.dart';
 
 import 'data/album.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           primarySwatch: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity),
-      home: HomePage(),
+      home: SplashPage(),
     );
   }
 }
